@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 2,
+  "exercises": [
+    {
+      "id": "childs_pose",
+      "name": {
+        "sv": "Barnets position",
+        "en": "Child's pose"
+      },
+      "summary": {
+        "sv": "En lugn vilostretch för ländryggen och ryggens sidor. Passar bra som avslutning eller när ryggen känns stel.",
+        "en": "A calm resting stretch for the lower back and the sides of the back. Works well to finish a session or when your back feels stiff."
+      },
+      "steps": {
+        "sv": [
+          "Börja på alla fyra med knäna ihop eller lite isär, och stortårna mot varandra.",
+          "Sätt dig långsamt bakåt mot hälarna.",
+          "Sträck armarna framåt längs golvet och låt pannan vila mot underlaget.",
+          "Slappna av i axlarna och andas djupt ner i magen och ryggen."
+        ],
+        "en": [
+          "Start on all fours with your knees together or slightly apart, and big toes touching.",
+          "Slowly sit back toward your heels.",
+          "Reach your arms forward along the floor and rest your forehead down.",
+          "Relax your shoulders and breathe deeply into your belly and back."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Gå med händerna åt ena sidan för att stretcha sidan av ryggen extra.",
+          "Lägg en kudde under rumpan om du inte når ner till hälarna."
+        ],
+        "en": [
+          "Walk your hands to one side for an extra stretch along the side of your back.",
+          "Put a pillow under your hips if you can't reach your heels."
+        ]
+      },
+      "bodyAreas": ["lower_back", "upper_back", "hips"],
+      "type": "stretch",
+      "position": "floor",
+      "equipment": ["mat"],
+      "dose": { "holdSeconds": 45, "perSide": false },
+      "difficulty": 1,
+      "workFriendly": false,
+      "caution": {
+        "sv": "Undvik vid knäbesvär, eller lägg en kudde mellan lår och vader.",
+        "en": "Avoid if you have knee problems, or place a pillow between your thighs and calves."
+      }
+    },
+    {
+      "id": "downward_dog",
+      "name": {
+        "sv": "Nedåtgående hund",
+        "en": "Downward dog"
+      },
+      "summary": {
+        "sv": "Stretchar baksidan av benen, vaderna och ryggen samtidigt som den öppnar upp axlarna. En bra helkroppsövning när du känns stel.",
+        "en": "Stretches the backs of the legs, the calves and the back while opening up the shoulders. A good full-body exercise when you feel stiff."
+      },
+      "steps": {
+        "sv": [
+          "Börja på alla fyra med händerna lite framför axlarna och knäna under höfterna.",
+          "Sätt tårna i golvet och lyft knäna.",
+          "Tryck höfterna uppåt och bakåt så att kroppen bildar ett upp-och-nedvänt V.",
+          "Pressa händerna mot golvet, låt huvudet hänga mellan armarna och andas lugnt."
+        ],
+        "en": [
+          "Start on all fours with your hands slightly in front of your shoulders and knees under your hips.",
+          "Tuck your toes under and lift your knees.",
+          "Push your hips up and back so your body forms an upside-down V.",
+          "Press your hands into the floor, let your head hang between your arms and breathe calmly."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Böj gärna på knäna så att ryggen kan vara rak. En rak rygg är viktigare än raka ben.",
+          "Hälarna behöver inte nå golvet."
+        ],
+        "en": [
+          "Feel free to bend your knees so your back can stay straight. A straight back matters more than straight legs.",
+          "Your heels don't need to touch the floor."
+        ]
+      },
+      "bodyAreas": ["shoulders", "upper_back", "lower_back", "legs"],
+      "type": "stretch",
+      "position": "floor",
+      "equipment": ["mat"],
+      "dose": { "holdSeconds": 30, "perSide": false },
+      "difficulty": 2,
+      "workFriendly": false,
+      "caution": {
+        "sv": "Undvik vid ont i handlederna eller axlarna. Kom ner långsamt om du blir yr, eftersom huvudet är lägre än hjärtat.",
+        "en": "Avoid if you have wrist or shoulder pain. Come down slowly if you feel dizzy, since your head is below your heart."
+      }
+    },
+    {
+      "id": "knee_to_chest",
+      "name": {
+        "sv": "Knä mot bröst",
+        "en": "Knee to chest"
+      },
+      "summary": {
+        "sv": "En mjuk stretch för ländryggen och sätet. Skön att göra på kvällen, på golvet eller i sängen.",
+        "en": "A gentle stretch for the lower back and glutes. Nice to do in the evening, on the floor or in bed."
+      },
+      "steps": {
+        "sv": [
+          "Ligg på rygg med benen raka.",
+          "Böj ena knät och dra det in mot bröstet med händerna knäppta runt knät.",
+          "Låt det andra benet ligga rakt och avslappnat mot golvet.",
+          "Håll huvud och axlar avslappnade mot underlaget. Håll kvar och byt ben."
+        ],
+        "en": [
+          "Lie on your back with your legs straight.",
+          "Bend one knee and pull it toward your chest with your hands clasped around the knee.",
+          "Let the other leg stay straight and relaxed on the floor.",
+          "Keep your head and shoulders relaxed on the floor. Hold, then switch legs."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Andas lugnt och låt ländryggen sjunka ner mot golvet.",
+          "Om det känns obekvämt i knät, ta tag bakom låret istället."
+        ],
+        "en": [
+          "Breathe calmly and let your lower back sink toward the floor.",
+          "If your knee feels uncomfortable, hold behind your thigh instead."
+        ]
+      },
+      "bodyAreas": ["lower_back", "hips", "legs"],
+      "type": "stretch",
+      "position": "floor",
+      "equipment": ["mat"],
+      "dose": { "holdSeconds": 30, "perSide": true },
+      "difficulty": 1,
+      "workFriendly": false,
+      "caution": null
+    },
+    {
+      "id": "lying_figure_four",
+      "name": {
+        "sv": "Liggande sätesstretch",
+        "en": "Lying figure four"
+      },
+      "summary": {
+        "sv": "Stretchar sätet och utsidan av höften. Stela sätesmuskler drar ofta i ländryggen, så den här övningen kan ge lättnad även där.",
+        "en": "Stretches the glutes and the outside of the hip. Tight glutes often pull on the lower back, so this can bring relief there too."
+      },
+      "steps": {
+        "sv": [
+          "Ligg på rygg med båda knäna böjda och fötterna i golvet.",
+          "Lägg ena fotleden på det andra benets knä, så att benen bildar en fyra.",
+          "Lyft upp det nedre benet och ta tag bakom låret med båda händerna.",
+          "Dra benen mjukt in mot bröstet tills du känner stretch i sätet. Håll kvar och byt sida."
+        ],
+        "en": [
+          "Lie on your back with both knees bent and feet on the floor.",
+          "Place one ankle on the opposite knee, so your legs form a figure four.",
+          "Lift the bottom leg and hold behind its thigh with both hands.",
+          "Gently pull your legs toward your chest until you feel a stretch in your glute. Hold, then switch sides."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Tryck lätt det övre knät bort från dig för att öka stretchen.",
+          "Håll huvud och axlar avslappnade mot golvet."
+        ],
+        "en": [
+          "Gently push the top knee away from you to deepen the stretch.",
+          "Keep your head and shoulders relaxed on the floor."
+        ]
+      },
+      "bodyAreas": ["hips", "lower_back", "legs"],
+      "type": "stretch",
+      "position": "floor",
+      "equipment": ["mat"],
+      "dose": { "holdSeconds": 30, "perSide": true },
+      "difficulty": 1,
+      "workFriendly": false,
+      "caution": {
+        "sv": "Avbryt om det gör ont i knät på det övre benet. Böj foten uppåt för att skydda knät.",
+        "en": "Stop if you feel pain in the knee of the top leg. Flex your foot upward to protect the knee."
+      }
+    },
+    {
+      "id": "lying_twist",
+      "name": {
+        "sv": "Liggande rotation",
+        "en": "Lying twist"
+      },
+      "summary": {
+        "sv": "En avslappnande vridning som stretchar ländryggen, höften och sidan av bålen. Skön att göra på kvällen när ryggen känns stel.",
+        "en": "A relaxing twist that stretches the lower back, hip and the side of your torso. Nice to do in the evening when your back feels stiff."
+      },
+      "steps": {
+        "sv": [
+          "Ligg på rygg med benen raka.",
+          "Böj ena knät och för det över kroppen mot motsatt sida.",
+          "Lägg motsatt hand på knät och låt det sjunka mot golvet.",
+          "Sträck ut den andra armen åt sidan och håll skulderbladen mot golvet. Håll kvar och byt sida."
+        ],
+        "en": [
+          "Lie on your back with your legs straight.",
+          "Bend one knee and bring it across your body toward the opposite side.",
+          "Rest the opposite hand on the knee and let it sink toward the floor.",
+          "Reach your other arm out to the side and keep your shoulder blades on the floor. Hold, then switch sides."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Tryck inte ner knät, låt tyngden göra jobbet.",
+          "Vänd gärna huvudet bort från knät för en extra stretch i bröstet och nacken."
+        ],
+        "en": [
+          "Don't force the knee down; let gravity do the work.",
+          "Turn your head away from the knee for an extra stretch in your chest and neck."
+        ]
+      },
+      "bodyAreas": ["lower_back", "hips", "chest"],
+      "type": "stretch",
+      "position": "floor",
+      "equipment": ["mat"],
+      "dose": { "holdSeconds": 30, "perSide": true },
+      "difficulty": 1,
+      "workFriendly": false,
+      "caution": {
+        "sv": "Gå bara så långt som känns bekvämt. Avbryt om du får smärta som strålar ut i benet.",
+        "en": "Only go as far as feels comfortable. Stop if you get pain radiating down your leg."
+      }
+    },
+    {
+      "id": "neck_bend_with_hand",
+      "name": {
+        "sv": "Sidostretch för nacken",
+        "en": "Neck side stretch"
+      },
+      "summary": {
+        "sv": "Stretchar sidan av nacken och övre delen av axeln, där många får spänningar av stress, tunga lyft och arbete med armarna högt.",
+        "en": "Stretches the side of the neck and the top of the shoulder, where many people get tension from stress, heavy lifting and overhead work."
+      },
+      "steps": {
+        "sv": [
+          "Stå eller sitt rakt och låt armarna hänga avslappnade.",
+          "Luta örat mot axeln utan att vrida huvudet.",
+          "Lägg handen på samma sida över huvudet, mot motsatt sida av huvudet, och låt armens tyngd ge en mjuk extra stretch.",
+          "Låt den andra axeln sjunka ner mot golvet. Håll kvar, andas lugnt och byt sida."
+        ],
+        "en": [
+          "Stand or sit tall and let your arms hang relaxed.",
+          "Tilt your ear toward your shoulder without turning your head.",
+          "Reach the hand on that side over your head, rest it on the opposite side of your head and let the weight of your arm give a gentle extra stretch.",
+          "Let the other shoulder sink toward the floor. Hold, breathe calmly and switch sides."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Dra inte med handen, låt bara armen vila mot huvudet.",
+          "Stretchen ska kännas skön, aldrig smärtsam."
+        ],
+        "en": [
+          "Don't pull with your hand; just let your arm rest on your head.",
+          "The stretch should feel good, never painful."
+        ]
+      },
+      "bodyAreas": ["neck", "shoulders"],
+      "type": "stretch",
+      "position": "standing",
+      "equipment": [],
+      "dose": { "holdSeconds": 30, "perSide": true },
+      "difficulty": 1,
+      "workFriendly": true,
+      "caution": {
+        "sv": "Avbryt om du får yrsel, domningar, stickningar eller smärta som strålar ut i armen.",
+        "en": "Stop if you feel dizzy, or get numbness, tingling or pain radiating into your arm."
+      }
+    },
+    {
+      "id": "shoulder_stretch",
+      "name": {
+        "sv": "Axelstretch över bröstet",
+        "en": "Cross-body shoulder stretch"
+      },
+      "summary": {
+        "sv": "Stretchar baksidan av axeln och området mellan skulderbladen, som ofta blir stelt efter lyft och upprepade armrörelser.",
+        "en": "Stretches the back of the shoulder and the area between the shoulder blades, which often gets stiff from lifting and repetitive arm work."
+      },
+      "steps": {
+        "sv": [
+          "Stå eller sitt rakt med avslappnade axlar.",
+          "Sträck ena armen rakt över bröstet.",
+          "Ta tag strax ovanför armbågen med den andra handen.",
+          "Dra armen mjukt in mot bröstet tills du känner stretch i axeln. Håll kvar och byt sida."
+        ],
+        "en": [
+          "Stand or sit tall with relaxed shoulders.",
+          "Bring one arm straight across your chest.",
+          "Hold it just above the elbow with your other hand.",
+          "Gently pull the arm toward your chest until you feel a stretch in your shoulder. Hold, then switch sides."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Håll axeln nere, dra inte upp den mot örat.",
+          "Vrid inte överkroppen, det är armen som ska röra sig."
+        ],
+        "en": [
+          "Keep your shoulder down; don't let it creep up toward your ear.",
+          "Don't rotate your upper body; only the arm should move."
+        ]
+      },
+      "bodyAreas": ["shoulders", "upper_back"],
+      "type": "stretch",
+      "position": "standing",
+      "equipment": [],
+      "dose": { "holdSeconds": 30, "perSide": true },
+      "difficulty": 1,
+      "workFriendly": true,
+      "caution": {
+        "sv": "Avbryt om det känns som att det kläms framtill i axeln.",
+        "en": "Stop if you feel pinching at the front of the shoulder."
+      }
+    }
+  ]
+}

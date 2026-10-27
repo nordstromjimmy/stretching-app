@@ -1,0 +1,143 @@
+{
+  "@@locale": "en",
+  "appTitle": "Posture & Stretching",
+  "exercisesTitle": "Exercises",
+
+  "chooseFigureTitle": "Choose your figure",
+  "chooseFigureBody": "Which figure do you want to see in the exercise images? You can change this later.",
+  "figureMale": "Male",
+  "figureFemale": "Female",
+  "changeFigure": "Change figure",
+
+  "bodyAreaNeck": "Neck",
+  "bodyAreaShoulders": "Shoulders",
+  "bodyAreaUpperBack": "Upper back",
+  "bodyAreaLowerBack": "Lower back",
+  "bodyAreaChest": "Chest",
+  "bodyAreaHips": "Hips",
+  "bodyAreaLegs": "Legs",
+
+  "navHome": "Home",
+  "navRoutines": "My routines",
+  "navExercises": "Exercises",
+  "navSettings": "Settings",
+
+  "homeTitle": "Home",
+  "streakCurrent": "Days in a row",
+  "streakLongest": "Longest streak",
+  "sessionsTotal": "Sessions",
+  "todayDone": "You've done a session today. Nice work!",
+  "todayKeepStreak": "Do a session today to keep your streak going.",
+  "todayStart": "Do a session today to start a streak.",
+  "activeDaysThisMonth": "{count, plural, =0{No active days this month} =1{1 active day this month} other{{count} active days this month}}",
+  "@activeDaysThisMonth": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "previousMonth": "Previous month",
+  "nextMonth": "Next month",
+
+  "settingsTitle": "Settings",
+  "settingsFigure": "Figure in exercise images",
+
+  "stepsTitle": "How to do it",
+  "tipsTitle": "Tips",
+  "cautionTitle": "Be careful",
+  "workFriendly": "Can be done at work",
+
+  "typeStretch": "Stretch",
+  "typeMobility": "Mobility",
+  "typeStrengthening": "Strength",
+
+  "positionStanding": "Standing",
+  "positionSitting": "Seated",
+  "positionFloor": "On the floor",
+
+  "equipmentNone": "No equipment",
+  "equipmentMat": "Yoga mat",
+  "equipmentChair": "Chair",
+  "equipmentWall": "Wall",
+  "equipmentDoorway": "Doorway",
+
+  "doseHold": "Hold {seconds} s",
+  "@doseHold": {
+    "placeholders": { "seconds": { "type": "int" } }
+  },
+  "dosePerSide": "per side",
+
+  "durationSeconds": "{seconds} s",
+  "@durationSeconds": {
+    "placeholders": { "seconds": { "type": "int" } }
+  },
+  "durationMinutes": "{minutes} min",
+  "@durationMinutes": {
+    "placeholders": { "minutes": { "type": "int" } }
+  },
+  "durationMinutesSeconds": "{minutes} min {seconds} s",
+  "@durationMinutesSeconds": {
+    "placeholders": {
+      "minutes": { "type": "int" },
+      "seconds": { "type": "int" }
+    }
+  },
+
+  "routinesTitle": "My routines",
+  "routinesEmpty": "You don't have any routines yet. Create one and add the exercises you want to do.",
+  "newRoutine": "New routine",
+  "routineNameLabel": "Name",
+  "routineNameHint": "E.g. Evening stretch",
+  "routineEmptyExercises": "No exercises yet. Add the exercises you want to do in this routine.",
+  "addExercises": "Add exercises",
+  "chooseExercisesTitle": "Choose exercises",
+  "routineExerciseCount": "{count, plural, =0{No exercises} =1{1 exercise} other{{count} exercises}}",
+  "@routineExerciseCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "totalTime": "Total {duration}",
+  "@totalTime": {
+    "placeholders": { "duration": { "type": "String" } }
+  },
+  "deleteRoutineTitle": "Delete routine?",
+  "deleteRoutineBody": "“{name}” will be deleted. This can't be undone.",
+  "@deleteRoutineBody": {
+    "placeholders": { "name": { "type": "String" } }
+  },
+
+  "startRoutine": "Start",
+  "setupTitle": "Before you start",
+  "setupHint": "Set how long to hold each exercise. Your times are saved for next time.",
+  "shorter": "Shorter",
+  "longer": "Longer",
+
+  "playerExerciseOf": "Exercise {current} of {total}",
+  "@playerExerciseOf": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "sideOf": "Side {side} of 2",
+  "@sideOf": {
+    "placeholders": { "side": { "type": "int" } }
+  },
+  "getReady": "Get ready",
+  "switchSide": "Switch sides",
+  "upNext": "Up next",
+  "pause": "Pause",
+  "resume": "Resume",
+  "previous": "Previous",
+  "skip": "Skip",
+  "finishedTitle": "Well done!",
+  "finishedBody": "You finished your routine.",
+  "quitTitle": "End session?",
+  "quitBody": "You're in the middle of a routine.",
+  "quit": "End",
+  "keepGoing": "Keep going",
+
+  "cancel": "Cancel",
+  "create": "Create",
+  "save": "Save",
+  "done": "Done",
+  "rename": "Rename",
+  "delete": "Delete",
+  "remove": "Remove"
+}
