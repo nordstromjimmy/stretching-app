@@ -2,6 +2,8 @@
   "@@locale": "sv",
   "appTitle": "Hållning & Stretch",
   "exercisesTitle": "Övningar",
+  "filterAll": "Alla",
+  "noExercisesForFilter": "Inga övningar för det här området än.",
 
   "chooseFigureTitle": "Välj figur",
   "chooseFigureBody": "Vilken figur vill du se på övningsbilderna? Du kan ändra det senare.",

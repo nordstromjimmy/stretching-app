@@ -73,6 +73,14 @@ flutter:
     - assets/exercises/neck_bend_with_hand/
     - assets/exercises/shoulder_stretch/
     - assets/exercises/figure_select/
+    - assets/exercises/butterfly/
+    - assets/exercises/seated_forward_fold/
+    - assets/exercises/upward_facing_dog/
+    - assets/exercises/upward_salutation/
+    - assets/exercises/squat/
+    - assets/exercises/bending_toe/
+    - assets/exercises/chest_opener/
+    - assets/exercises/thunderbolt/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

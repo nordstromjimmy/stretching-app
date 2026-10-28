@@ -63,3 +63,16 @@ String formatClock(int seconds) {
   final rest = seconds % 60;
   return '$minutes:${rest.toString().padLeft(2, '0')}';
 }
+
+/// Alphabetical comparison of exercise names.
+/// In Swedish, å, ä and ö come after z, in that order.
+int compareNames(String a, String b, String languageCode) {
+  String key(String name) {
+    final lower = name.toLowerCase();
+    if (languageCode != 'sv') return lower;
+    // '{', '|' and '}' are the three characters right after 'z'.
+    return lower.replaceAll('å', '{').replaceAll('ä', '|').replaceAll('ö', '}');
+  }
+
+  return key(a).compareTo(key(b));
+}

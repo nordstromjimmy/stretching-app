@@ -195,6 +195,7 @@ class _RoutinePlayerScreenState extends State<RoutinePlayerScreen> {
     final textTheme = Theme.of(context).textTheme;
     final colors = Theme.of(context).colorScheme;
     final exercise = _current.exercise;
+    final elapsed = _phaseLength - _remaining;
 
     // Text above the timer during the prep countdown.
     String? phaseLabel;
@@ -225,13 +226,13 @@ class _RoutinePlayerScreenState extends State<RoutinePlayerScreen> {
                 ),
               ),
               const Spacer(),
-              if (_step.sides == 2)
+              /* if (_step.sides == 2)
                 Text(
                   t.sideOf(_step.side),
                   style: textTheme.labelLarge?.copyWith(
                     color: colors.onSurfaceVariant,
                   ),
-                ),
+                ), */
             ],
           ),
           const SizedBox(height: 8),
@@ -280,19 +281,41 @@ class _RoutinePlayerScreenState extends State<RoutinePlayerScreen> {
             child: Stack(
               fit: StackFit.expand,
               children: [
-                CircularProgressIndicator(
-                  value: _remaining / _phaseLength,
-                  strokeWidth: 10,
-                  strokeCap: StrokeCap.round,
-                  backgroundColor: colors.surfaceContainerHighest,
-                  color: _preparing ? colors.secondary : colors.primary,
+                // Fills up during each phase. It animates toward next second's
+                // value, so it moves smoothly and is full exactly when time is up.
+                // The key restarts the animation from empty at each new phase.
+                TweenAnimationBuilder<double>(
+                  key: ValueKey('$_stepIndex-$_preparing'),
+                  tween: Tween(begin: 0, end: (elapsed + 1) / _phaseLength),
+                  duration: const Duration(seconds: 1),
+                  builder: (context, value, _) => CircularProgressIndicator(
+                    value: value.clamp(0.0, 1.0),
+                    strokeWidth: 10,
+                    strokeCap: StrokeCap.round,
+                    backgroundColor: colors.surfaceContainerHighest,
+                    color: _preparing ? colors.secondary : colors.primary,
+                  ),
                 ),
                 Center(
-                  child: Text(
-                    formatClock(_remaining),
-                    style: textTheme.displayMedium?.copyWith(
-                      fontFeatures: const [FontFeature.tabularFigures()],
-                    ),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        // Prep counts down (5, 4, 3...), the exercise counts up.
+                        formatClock(_preparing ? _remaining : elapsed),
+                        style: textTheme.displayMedium?.copyWith(
+                          fontFeatures: const [FontFeature.tabularFigures()],
+                        ),
+                      ),
+                      if (!_preparing)
+                        Text(
+                          '/ ${formatClock(_phaseLength)}',
+                          style: textTheme.titleSmall?.copyWith(
+                            color: colors.onSurfaceVariant,
+                            fontFeatures: const [FontFeature.tabularFigures()],
+                          ),
+                        ),
+                    ],
                   ),
                 ),
               ],

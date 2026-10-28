@@ -110,6 +110,18 @@ abstract class AppLocalizations {
   /// **'Exercises'**
   String get exercisesTitle;
 
+  /// No description provided for @filterAll.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get filterAll;
+
+  /// No description provided for @noExercisesForFilter.
+  ///
+  /// In en, this message translates to:
+  /// **'No exercises for this area yet.'**
+  String get noExercisesForFilter;
+
   /// No description provided for @chooseFigureTitle.
   ///
   /// In en, this message translates to:

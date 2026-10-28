@@ -319,6 +319,378 @@
         "sv": "Avbryt om det känns som att det kläms framtill i axeln.",
         "en": "Stop if you feel pinching at the front of the shoulder."
       }
+    },
+        {
+      "id": "butterfly",
+      "name": {
+        "sv": "Fjärilen",
+        "en": "Butterfly stretch"
+      },
+      "summary": {
+        "sv": "Stretchar insidan av låren och öppnar upp höfterna. Bra för dig som sitter eller står mycket, eftersom stela höfter ofta drar i ländryggen.",
+        "en": "Stretches the inner thighs and opens up the hips. Good if you sit or stand a lot, since stiff hips often pull on the lower back."
+      },
+      "steps": {
+        "sv": [
+          "Sitt på golvet med rak rygg.",
+          "Böj knäna och sätt fotsulorna mot varandra.",
+          "Ta tag runt fötterna och dra dem en bit in mot kroppen.",
+          "Låt knäna sjunka ner mot golvet. Luta dig lätt framåt från höfterna för en djupare stretch."
+        ],
+        "en": [
+          "Sit on the floor with a straight back.",
+          "Bend your knees and place the soles of your feet together.",
+          "Hold your feet and draw them a little closer to your body.",
+          "Let your knees sink toward the floor. Lean forward slightly from your hips for a deeper stretch."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Luta dig framåt med rak rygg, inte genom att runda ryggen.",
+          "Tryck inte ner knäna med händerna, låt dem sjunka av sig själva.",
+          "Sitt på en kudde om det är svårt att hålla ryggen rak."
+        ],
+        "en": [
+          "Lean forward with a straight back rather than rounding it.",
+          "Don't push your knees down with your hands; let them sink on their own.",
+          "Sit on a cushion if it's hard to keep your back straight."
+        ]
+      },
+      "bodyAreas": ["hips", "legs", "lower_back"],
+      "type": "stretch",
+      "position": "floor",
+      "equipment": ["mat"],
+      "dose": { "holdSeconds": 30, "perSide": false },
+      "difficulty": 1,
+      "workFriendly": false,
+      "caution": {
+        "sv": "Avbryt om det gör ont i knäna eller ljumskarna. Flytta fötterna längre bort från kroppen för att minska trycket.",
+        "en": "Stop if you feel pain in your knees or groin. Move your feet further from your body to reduce the strain."
+      }
+    },
+        {
+      "id": "seated_forward_fold",
+      "name": {
+        "sv": "Sittande framåtfällning",
+        "en": "Seated forward fold"
+      },
+      "summary": {
+        "sv": "Stretchar baksidan av låren och ländryggen. Stela baksidor drar ofta i bäckenet och kan bidra till ont i ländryggen.",
+        "en": "Stretches the backs of the thighs and the lower back. Tight hamstrings often pull on the pelvis and can contribute to lower back pain."
+      },
+      "steps": {
+        "sv": [
+          "Sitt på golvet med benen raka framför dig och tårna pekande uppåt.",
+          "Sträck armarna uppåt och gör dig lång i ryggen.",
+          "Fäll framåt från höfterna och sträck händerna mot fötterna.",
+          "Ta tag om fötterna, smalbenen eller knäna, där du når bekvämt. Slappna av i nacken och andas lugnt."
+        ],
+        "en": [
+          "Sit on the floor with your legs straight in front of you and toes pointing up.",
+          "Reach your arms up and lengthen your back.",
+          "Fold forward from your hips and reach your hands toward your feet.",
+          "Hold your feet, shins or knees, wherever you can comfortably reach. Relax your neck and breathe calmly."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Böj gärna lite på knäna om baksidan av låren är stel. Det viktiga är att fälla från höfterna.",
+          "Gunga inte. Sjunk istället lite djupare för varje utandning."
+        ],
+        "en": [
+          "Bend your knees a little if your hamstrings are tight. What matters is folding from the hips.",
+          "Don't bounce. Instead, sink a little deeper with each exhale."
+        ]
+      },
+      "bodyAreas": ["legs", "lower_back"],
+      "type": "stretch",
+      "position": "floor",
+      "equipment": ["mat"],
+      "dose": { "holdSeconds": 30, "perSide": false },
+      "difficulty": 2,
+      "workFriendly": false,
+      "caution": {
+        "sv": "Avbryt om du får smärta som strålar ut i benet, eller stickningar i foten.",
+        "en": "Stop if you get pain radiating down your leg, or tingling in your foot."
+      }
+    },
+        {
+      "id": "upward_facing_dog",
+      "name": {
+        "sv": "Uppåtgående hund",
+        "en": "Upward-facing dog"
+      },
+      "summary": {
+        "sv": "Öppnar upp bröstet och framsidan av höfterna och böjer ryggen bakåt. Motverkar den framåtlutade hållningen från skärmar, mobilen och arbete med armarna framför kroppen.",
+        "en": "Opens up the chest and the front of the hips while bending the back backward. Counters the hunched posture from screens, phones and working with your arms in front of you."
+      },
+      "steps": {
+        "sv": [
+          "Ligg på magen med benen raka bakåt och fotryggarna mot golvet.",
+          "Placera händerna i golvet bredvid revbenen, armbågarna nära kroppen.",
+          "Tryck ifrån med händerna och sträck armarna så att bröstet lyfts framåt och uppåt.",
+          "Dra axlarna bakåt och nedåt, bort från öronen. Titta framåt eller lätt uppåt och andas lugnt."
+        ],
+        "en": [
+          "Lie on your stomach with your legs straight back and the tops of your feet on the floor.",
+          "Place your hands on the floor beside your ribs, elbows close to your body.",
+          "Press into your hands and straighten your arms so your chest lifts forward and up.",
+          "Draw your shoulders back and down, away from your ears. Look ahead or slightly up and breathe calmly."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Tryck fotryggarna mot golvet och spänn lätt i sätet för att skydda ländryggen.",
+          "Om det är för tungt, vila på underarmarna istället (sfinxen). Det ger en mjukare version av samma rörelse."
+        ],
+        "en": [
+          "Press the tops of your feet into the floor and lightly engage your glutes to protect your lower back.",
+          "If it's too much, rest on your forearms instead (sphinx pose). It's a gentler version of the same movement."
+        ]
+      },
+      "bodyAreas": ["chest", "upper_back", "lower_back", "hips"],
+      "type": "stretch",
+      "position": "floor",
+      "equipment": ["mat"],
+      "dose": { "holdSeconds": 20, "perSide": false },
+      "difficulty": 2,
+      "workFriendly": false,
+      "caution": {
+        "sv": "Avbryt om det kläms eller gör ont i ländryggen. Fäll inte huvudet för långt bakåt, och undvik övningen vid ont i handlederna.",
+        "en": "Stop if you feel pinching or pain in your lower back. Don't drop your head too far back, and avoid this exercise if your wrists hurt."
+      }
+    },
+        {
+      "id": "upward_salutation",
+      "name": {
+        "sv": "Stående uppsträckning",
+        "en": "Upward salute"
+      },
+      "summary": {
+        "sv": "En snabb och uppiggande stretch för axlar, bröst och övre rygg. Perfekt på en paus när du suttit eller jobbat framåtlutad länge.",
+        "en": "A quick, energizing stretch for the shoulders, chest and upper back. Perfect for a break when you've been sitting or working hunched over for a while."
+      },
+      "steps": {
+        "sv": [
+          "Stå med fötterna ihop eller höftbrett isär och armarna längs sidorna.",
+          "Andas in och sträck armarna uppåt över huvudet, handflatorna mot varandra.",
+          "Sträck dig lång och böj dig lätt bakåt i övre delen av ryggen. Lyft blicken mot händerna.",
+          "Håll kvar och andas lugnt. Sänk armarna långsamt på en utandning."
+        ],
+        "en": [
+          "Stand with your feet together or hip-width apart and your arms by your sides.",
+          "Breathe in and reach your arms up overhead, palms facing each other.",
+          "Lengthen up and lean back slightly through your upper back. Lift your gaze toward your hands.",
+          "Hold and breathe calmly. Lower your arms slowly as you breathe out."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Tänk att du sträcker dig uppåt först och bakåt sedan. Bakåtböjningen ska vara liten.",
+          "Spänn lätt i magen och sätet så att böjningen kommer från övre ryggen, inte ländryggen."
+        ],
+        "en": [
+          "Think of reaching up first and back second. The backbend should be small.",
+          "Lightly engage your stomach and glutes so the bend comes from your upper back, not your lower back."
+        ]
+      },
+      "bodyAreas": ["shoulders", "chest", "upper_back"],
+      "type": "stretch",
+      "position": "standing",
+      "equipment": [],
+      "dose": { "holdSeconds": 20, "perSide": false },
+      "difficulty": 1,
+      "workFriendly": true,
+      "caution": {
+        "sv": "Böj dig bara lite bakåt. Avbryt om du blir yr eller får ont i ländryggen eller nacken.",
+        "en": "Only lean back a little. Stop if you feel dizzy or get pain in your lower back or neck."
+      }
+    },
+        {
+      "id": "squat",
+      "name": {
+        "sv": "Djup knäböj",
+        "en": "Deep squat"
+      },
+      "summary": {
+        "sv": "Öppnar upp höfterna, ljumskarna och fotlederna och ger en mjuk stretch i ländryggen. En bra motvikt till mycket sittande på stol.",
+        "en": "Opens up the hips, groin and ankles and gives a gentle stretch to the lower back. A good counterbalance to lots of sitting in chairs."
+      },
+      "steps": {
+        "sv": [
+          "Stå med fötterna lite bredare än höfterna och tårna pekande lätt utåt.",
+          "Böj knäna och sänk rumpan så långt ner som du kan mot golvet.",
+          "Pressa handflatorna mot varandra framför bröstet och låt armbågarna trycka knäna lätt utåt.",
+          "Håll ryggen så rak du kan, hälarna i golvet, och andas lugnt."
+        ],
+        "en": [
+          "Stand with your feet slightly wider than your hips and toes pointing slightly out.",
+          "Bend your knees and lower your hips as far toward the floor as you can.",
+          "Press your palms together in front of your chest and let your elbows gently push your knees outward.",
+          "Keep your back as straight as you can, heels on the floor, and breathe calmly."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Lägg en ihoprullad handduk under hälarna om de lyfter från golvet.",
+          "Håll i något stadigt framför dig, till exempel en dörrkarm, om det är svårt att hålla balansen.",
+          "Sitt på en låg pall eller en hög med kuddar för en lättare variant."
+        ],
+        "en": [
+          "Place a rolled-up towel under your heels if they lift off the floor.",
+          "Hold onto something sturdy in front of you, like a door frame, if balancing is hard.",
+          "Sit on a low stool or a stack of cushions for an easier version."
+        ]
+      },
+      "bodyAreas": ["hips", "legs", "lower_back"],
+      "type": "mobility",
+      "position": "standing",
+      "equipment": [],
+      "dose": { "holdSeconds": 30, "perSide": false },
+      "difficulty": 2,
+      "workFriendly": false,
+      "caution": {
+        "sv": "Gå bara så djupt som känns bra i knäna. Avbryt om du får smärta i knäna eller ljumskarna, och res dig långsamt om du blir yr.",
+        "en": "Only go as deep as feels good for your knees. Stop if you get pain in your knees or groin, and stand up slowly if you feel dizzy."
+      }
+    },
+        {
+      "id": "bending_toe",
+      "name": {
+        "sv": "Stående framåtfällning",
+        "en": "Standing forward fold"
+      },
+      "summary": {
+        "sv": "Stretchar baksidan av benen och ryggen. Går att göra var som helst, till exempel på en paus när du stått eller suttit länge.",
+        "en": "Stretches the backs of the legs and the back. Can be done anywhere, for example on a break after standing or sitting for a long time."
+      },
+      "steps": {
+        "sv": [
+          "Stå med fötterna ihop eller höftbrett isär.",
+          "Fäll framåt från höfterna med rak rygg.",
+          "Låt överkroppen och huvudet hänga och sträck händerna mot tårna, smalbenen eller golvet.",
+          "Andas lugnt. Kom upp långsamt genom att rulla upp ryggen kota för kota, med huvudet sist."
+        ],
+        "en": [
+          "Stand with your feet together or hip-width apart.",
+          "Fold forward from your hips with a straight back.",
+          "Let your upper body and head hang and reach your hands toward your toes, shins or the floor.",
+          "Breathe calmly. Come up slowly by rolling up through your spine, one vertebra at a time, with your head last."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Böj på knäna så mycket du behöver. Det är helt okej att inte nå tårna.",
+          "Slappna av i nacken och låt huvudet hänga tungt."
+        ],
+        "en": [
+          "Bend your knees as much as you need. It's completely fine not to reach your toes.",
+          "Relax your neck and let your head hang heavy."
+        ]
+      },
+      "bodyAreas": ["legs", "lower_back", "upper_back"],
+      "type": "stretch",
+      "position": "standing",
+      "equipment": [],
+      "dose": { "holdSeconds": 30, "perSide": false },
+      "difficulty": 1,
+      "workFriendly": true,
+      "caution": {
+        "sv": "Res dig långsamt, eftersom du kan bli yr när huvudet varit lägre än hjärtat. Avbryt om du får smärta som strålar ut i benet.",
+        "en": "Stand up slowly, since you may feel dizzy after having your head below your heart. Stop if you get pain radiating down your leg."
+      }
+    },
+        {
+      "id": "chest_opener",
+      "name": {
+        "sv": "Bröstöppnare",
+        "en": "Chest opener"
+      },
+      "summary": {
+        "sv": "Öppnar upp bröstet och framsidan av axlarna och aktiverar musklerna mellan skulderbladen. Motverkar framåtdragna axlar efter mycket arbete med armarna framför kroppen.",
+        "en": "Opens up the chest and the front of the shoulders and activates the muscles between the shoulder blades. Counters rounded shoulders after lots of work with your arms in front of you."
+      },
+      "steps": {
+        "sv": [
+          "Stå rakt med fötterna höftbrett isär.",
+          "Lägg händerna bakom huvudet med fingrarna lätt mot varandra eller ihopflätade.",
+          "För armbågarna bakåt och utåt så långt du kan och dra ihop skulderbladen.",
+          "Håll huvudet rakt och blicken framåt. Håll kvar och andas lugnt."
+        ],
+        "en": [
+          "Stand tall with your feet hip-width apart.",
+          "Place your hands behind your head with your fingertips touching or interlaced.",
+          "Draw your elbows back and out as far as you can and squeeze your shoulder blades together.",
+          "Keep your head straight and look ahead. Hold and breathe calmly."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Håll axlarna nere, långt från öronen.",
+          "Svanka inte. Spänn lätt i magen så att rörelsen kommer från axlarna och övre ryggen."
+        ],
+        "en": [
+          "Keep your shoulders down, away from your ears.",
+          "Don't arch your lower back. Lightly engage your stomach so the movement comes from your shoulders and upper back."
+        ]
+      },
+      "bodyAreas": ["chest", "shoulders", "upper_back"],
+      "type": "stretch",
+      "position": "standing",
+      "equipment": [],
+      "dose": { "holdSeconds": 30, "perSide": false },
+      "difficulty": 1,
+      "workFriendly": true,
+      "caution": {
+        "sv": "Dra inte huvudet framåt med händerna, de ska bara vila mot bakhuvudet. Avbryt vid stickningar i armarna.",
+        "en": "Don't pull your head forward with your hands; they should only rest on the back of your head. Stop if you feel tingling in your arms."
+      }
+    },
+        {
+      "id": "thunderbolt",
+      "name": {
+        "sv": "Sittande på hälarna",
+        "en": "Thunderbolt pose"
+      },
+      "summary": {
+        "sv": "En lugn, upprätt sittställning som stretchar framsidan av fötterna, fotlederna och låren. Passar bra för en stund av lugn andning i början eller slutet av en rutin.",
+        "en": "A calm, upright seated position that stretches the fronts of your feet, ankles and thighs. Works well for a moment of calm breathing at the start or end of a routine."
+      },
+      "steps": {
+        "sv": [
+          "Ställ dig på knä med knäna ihop och fotryggarna mot golvet.",
+          "Sätt dig långsamt bakåt på hälarna.",
+          "Räta upp ryggen, slappna av i axlarna och vila händerna på låren.",
+          "Blunda gärna och andas lugnt och djupt genom näsan."
+        ],
+        "en": [
+          "Kneel with your knees together and the tops of your feet on the floor.",
+          "Slowly sit back onto your heels.",
+          "Straighten your back, relax your shoulders and rest your hands on your thighs.",
+          "Close your eyes if you like and breathe slowly and deeply through your nose."
+        ]
+      },
+      "tips": {
+        "sv": [
+          "Lägg en kudde mellan rumpan och hälarna om det tar emot i knäna.",
+          "Lägg en vikt handduk under fotlederna om det gör ont i fotryggarna."
+        ],
+        "en": [
+          "Place a cushion between your hips and heels if your knees feel strained.",
+          "Put a folded towel under your ankles if the tops of your feet hurt."
+        ]
+      },
+      "bodyAreas": ["legs"],
+      "type": "stretch",
+      "position": "floor",
+      "equipment": ["mat"],
+      "dose": { "holdSeconds": 45, "perSide": false },
+      "difficulty": 1,
+      "workFriendly": false,
+      "caution": {
+        "sv": "Undvik vid knäbesvär eller nyligen opererade knän. Res dig långsamt om benen somnat.",
+        "en": "Avoid if you have knee problems or recent knee surgery. Stand up slowly if your legs have gone numb."
+      }
     }
   ]
 }

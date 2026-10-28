@@ -15,6 +15,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get exercisesTitle => 'Exercises';
 
   @override
+  String get filterAll => 'All';
+
+  @override
+  String get noExercisesForFilter => 'No exercises for this area yet.';
+
+  @override
   String get chooseFigureTitle => 'Choose your figure';
 
   @override

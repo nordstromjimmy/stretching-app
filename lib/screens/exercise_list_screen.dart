@@ -4,6 +4,7 @@ import '../data/exercise_repository.dart';
 import '../l10n/app_localizations.dart';
 import '../models/exercise.dart';
 import '../settings/settings_controller.dart';
+import '../theme/app_theme.dart';
 import '../utils/labels.dart';
 import 'exercise_detail_screen.dart';
 
@@ -22,7 +23,13 @@ class ExerciseListScreen extends StatefulWidget {
 }
 
 class _ExerciseListScreenState extends State<ExerciseListScreen> {
-  late final Future<List<Exercise>> _exercises = widget.repository.getAll();
+  /// The selected body area. null = show all.
+  BodyArea? _filter;
+
+  void _select(BodyArea? area) => setState(() {
+    // Tapping the selected area again goes back to showing all.
+    _filter = (_filter == area) ? null : area;
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -30,33 +37,113 @@ class _ExerciseListScreenState extends State<ExerciseListScreen> {
     final lang = Localizations.localeOf(context).languageCode;
     final gender = widget.settings.gender ?? FigureGender.male;
 
-    return Scaffold(
-      appBar: AppBar(title: Text(t.exercisesTitle), centerTitle: true),
-      body: FutureBuilder<List<Exercise>>(
-        future: _exercises,
-        builder: (context, snapshot) {
-          if (snapshot.hasError) {
-            return Padding(
-              padding: const EdgeInsets.all(16),
-              child: Text('${snapshot.error}'),
-            );
-          }
-          if (!snapshot.hasData) {
-            return const Center(child: CircularProgressIndicator());
-          }
-
-          final exercises = snapshot.data!;
-          return ListView.separated(
-            padding: const EdgeInsets.all(16),
-            itemCount: exercises.length,
-            separatorBuilder: (_, __) => const SizedBox(height: 12),
-            itemBuilder: (context, index) => _ExerciseCard(
-              exercise: exercises[index],
-              gender: gender,
-              lang: lang,
-            ),
+    final exercises =
+        widget.repository.all
+            .where((e) => _filter == null || e.bodyAreas.contains(_filter))
+            .toList()
+          ..sort(
+            (a, b) => compareNames(a.name.of(lang), b.name.of(lang), lang),
           );
-        },
+
+    return Scaffold(
+      appBar: AppBar(title: Text(t.exercisesTitle)),
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // Filter chips, scrolling sideways
+          SizedBox(
+            height: 52,
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+              children: [
+                _FilterChip(
+                  label: t.filterAll,
+                  selected: _filter == null,
+                  onTap: () => setState(() => _filter = null),
+                ),
+                for (final area in BodyArea.values)
+                  _FilterChip(
+                    label: bodyAreaLabel(t, area),
+                    selected: _filter == area,
+                    onTap: () => _select(area),
+                  ),
+              ],
+            ),
+          ),
+
+          // Number of exercises shown
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 4, 16, 8),
+            child: Text(
+              t.routineExerciseCount(exercises.length),
+              style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                color: Theme.of(context).colorScheme.onSurfaceVariant,
+              ),
+            ),
+          ),
+
+          // List
+          Expanded(
+            child: exercises.isEmpty
+                ? Center(
+                    child: Padding(
+                      padding: const EdgeInsets.all(32),
+                      child: Text(
+                        t.noExercisesForFilter,
+                        textAlign: TextAlign.center,
+                        style: Theme.of(context).textTheme.bodyLarge,
+                      ),
+                    ),
+                  )
+                : ListView.separated(
+                    padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+                    itemCount: exercises.length,
+                    separatorBuilder: (_, __) => const SizedBox(height: 12),
+                    itemBuilder: (context, index) => _ExerciseCard(
+                      exercise: exercises[index],
+                      gender: gender,
+                      lang: lang,
+                    ),
+                  ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _FilterChip extends StatelessWidget {
+  final String label;
+  final bool selected;
+  final VoidCallback onTap;
+
+  const _FilterChip({
+    required this.label,
+    required this.selected,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+
+    return Padding(
+      padding: const EdgeInsets.only(right: 8),
+      child: ChoiceChip(
+        label: Text(label),
+        selected: selected,
+        onSelected: (_) => onTap(),
+        showCheckmark: false,
+        selectedColor: colors.primary,
+        backgroundColor: AppColors.card,
+        labelStyle: TextStyle(
+          color: selected ? colors.onPrimary : colors.onSurface,
+          fontWeight: selected ? FontWeight.w600 : FontWeight.normal,
+        ),
+        side: BorderSide(
+          color: selected ? colors.primary : colors.outlineVariant,
+        ),
       ),
     );
   }
@@ -120,7 +207,7 @@ class _ExerciseCard extends StatelessWidget {
                       style: textTheme.bodySmall?.copyWith(color: muted),
                     ),
                     const SizedBox(height: 6),
-                    /* Row(
+                    Row(
                       children: [
                         Icon(Icons.timer_outlined, size: 16, color: muted),
                         const SizedBox(width: 4),
@@ -129,7 +216,7 @@ class _ExerciseCard extends StatelessWidget {
                           style: textTheme.bodySmall?.copyWith(color: muted),
                         ),
                       ],
-                    ), */
+                    ),
                   ],
                 ),
               ),

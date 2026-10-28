@@ -15,6 +15,12 @@ class AppLocalizationsSv extends AppLocalizations {
   String get exercisesTitle => 'Övningar';
 
   @override
+  String get filterAll => 'Alla';
+
+  @override
+  String get noExercisesForFilter => 'Inga övningar för det här området än.';
+
+  @override
   String get chooseFigureTitle => 'Välj figur';
 
   @override
